@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <project source="2.14.6" version="1.0">
-This file is intended to be loaded by Logisim-evolution (https://github.com/reds-heig/logisim-evolution).
-<lib desc="#Wiring" name="0"/>
+  This file is intended to be loaded by Logisim-evolution (https://github.com/reds-heig/logisim-evolution).
+
+  <lib desc="#Wiring" name="0"/>
   <lib desc="#Gates" name="1">
     <tool name="NAND Gate">
       <a name="size" val="30"/>
@@ -176,6 +177,7 @@ end TCL_Generic;&#13;
     <wire from="(2520,1490)" to="(2530,1490)"/>
     <wire from="(2400,730)" to="(2410,730)"/>
     <wire from="(2430,1080)" to="(2440,1080)"/>
+    <wire from="(320,1330)" to="(1130,1330)"/>
     <wire from="(2320,1290)" to="(2330,1290)"/>
     <wire from="(2320,650)" to="(2330,650)"/>
     <wire from="(2060,910)" to="(2060,920)"/>
@@ -453,7 +455,6 @@ end TCL_Generic;&#13;
     <wire from="(2240,80)" to="(2240,180)"/>
     <wire from="(1170,740)" to="(1170,760)"/>
     <wire from="(810,1360)" to="(1120,1360)"/>
-    <wire from="(370,1330)" to="(370,1920)"/>
     <wire from="(920,880)" to="(980,880)"/>
     <wire from="(2520,610)" to="(2530,610)"/>
     <wire from="(1870,540)" to="(1870,680)"/>
@@ -718,7 +719,6 @@ end TCL_Generic;&#13;
     <wire from="(2410,560)" to="(2440,560)"/>
     <wire from="(2780,620)" to="(2800,620)"/>
     <wire from="(950,1430)" to="(950,1500)"/>
-    <wire from="(320,1330)" to="(370,1330)"/>
     <wire from="(2160,1280)" to="(2180,1280)"/>
     <wire from="(2590,760)" to="(2600,760)"/>
     <wire from="(2450,620)" to="(2460,620)"/>
@@ -1511,6 +1511,7 @@ end TCL_Generic;&#13;
     <wire from="(1530,1290)" to="(1530,1320)"/>
     <wire from="(2510,1100)" to="(2530,1100)"/>
     <wire from="(330,1450)" to="(380,1450)"/>
+    <wire from="(1390,510)" to="(1390,540)"/>
     <wire from="(2150,1380)" to="(2170,1380)"/>
     <wire from="(2520,1440)" to="(2530,1440)"/>
     <wire from="(1750,1510)" to="(1750,1520)"/>
@@ -1674,6 +1675,7 @@ end TCL_Generic;&#13;
     <wire from="(2570,540)" to="(2580,540)"/>
     <wire from="(2520,1330)" to="(2520,1380)"/>
     <wire from="(360,110)" to="(1240,110)"/>
+    <wire from="(280,1950)" to="(1160,1950)"/>
     <wire from="(2260,170)" to="(2260,350)"/>
     <wire from="(1360,1450)" to="(1360,1460)"/>
     <wire from="(1470,720)" to="(1480,720)"/>
@@ -1767,7 +1769,6 @@ end TCL_Generic;&#13;
     <wire from="(1130,1610)" to="(2650,1610)"/>
     <wire from="(390,130)" to="(1220,130)"/>
     <wire from="(1660,1020)" to="(1760,1020)"/>
-    <wire from="(370,1330)" to="(1130,1330)"/>
     <wire from="(2220,900)" to="(2230,900)"/>
     <wire from="(2520,1080)" to="(2520,1130)"/>
     <wire from="(2010,890)" to="(2010,900)"/>
@@ -1860,6 +1861,7 @@ end TCL_Generic;&#13;
     <wire from="(1580,1150)" to="(1600,1150)"/>
     <wire from="(2210,710)" to="(2210,730)"/>
     <wire from="(1360,920)" to="(1390,920)"/>
+    <wire from="(280,1920)" to="(410,1920)"/>
     <wire from="(1080,1660)" to="(2700,1660)"/>
     <wire from="(770,1190)" to="(770,1240)"/>
     <wire from="(1920,840)" to="(1950,840)"/>
@@ -1911,6 +1913,7 @@ end TCL_Generic;&#13;
     <wire from="(2360,920)" to="(2370,920)"/>
     <wire from="(2320,1520)" to="(2330,1520)"/>
     <wire from="(2170,410)" to="(2180,410)"/>
+    <wire from="(280,1920)" to="(280,1950)"/>
     <wire from="(1310,710)" to="(1310,720)"/>
     <wire from="(1520,720)" to="(1530,720)"/>
     <wire from="(910,1060)" to="(930,1060)"/>
@@ -2078,6 +2081,7 @@ end TCL_Generic;&#13;
     <wire from="(2410,1280)" to="(2440,1280)"/>
     <wire from="(1560,170)" to="(1660,170)"/>
     <wire from="(460,1470)" to="(460,1480)"/>
+    <wire from="(1110,510)" to="(1110,860)"/>
     <wire from="(2570,180)" to="(2580,180)"/>
     <wire from="(1890,400)" to="(1890,540)"/>
     <wire from="(2450,1340)" to="(2460,1340)"/>
@@ -2120,7 +2124,6 @@ end TCL_Generic;&#13;
     <wire from="(710,1680)" to="(820,1680)"/>
     <wire from="(2160,740)" to="(2160,800)"/>
     <wire from="(1530,1070)" to="(1530,1080)"/>
-    <wire from="(370,1920)" to="(410,1920)"/>
     <wire from="(1210,90)" to="(1210,780)"/>
     <wire from="(1470,1130)" to="(1480,1130)"/>
     <wire from="(610,1430)" to="(610,1470)"/>
@@ -2143,9 +2146,11 @@ end TCL_Generic;&#13;
     <wire from="(1560,1070)" to="(1660,1070)"/>
     <wire from="(840,1340)" to="(840,1410)"/>
     <wire from="(2570,1080)" to="(2580,1080)"/>
+    <wire from="(1160,860)" to="(1160,1950)"/>
     <wire from="(2320,1150)" to="(2330,1150)"/>
     <wire from="(2260,710)" to="(2260,890)"/>
     <wire from="(440,940)" to="(440,1020)"/>
+    <wire from="(1110,860)" to="(1160,860)"/>
     <wire from="(1470,1260)" to="(1480,1260)"/>
     <wire from="(1310,1100)" to="(1320,1100)"/>
     <wire from="(1110,900)" to="(1120,900)"/>
@@ -2161,6 +2166,7 @@ end TCL_Generic;&#13;
     <wire from="(2680,590)" to="(2680,1640)"/>
     <wire from="(1800,1260)" to="(1820,1260)"/>
     <wire from="(2580,1290)" to="(2580,1320)"/>
+    <wire from="(1110,510)" to="(1390,510)"/>
     <wire from="(1460,920)" to="(1480,920)"/>
     <wire from="(1710,200)" to="(1740,200)"/>
     <wire from="(570,1000)" to="(580,1000)"/>
